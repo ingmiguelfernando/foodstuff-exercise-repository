@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import discountRatesReducer from "../features/discountRates/discountRateSlice"
+import taxRateReducer from "../features/taxRates/taxRateSlice"
 
 export const store = configureStore({
   reducer: {
    discountRates: discountRatesReducer,
+   taxRates: taxRateReducer,
   },
 });
 
