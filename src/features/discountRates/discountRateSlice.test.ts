@@ -9,7 +9,7 @@ const initialState: DiscountRate[] = [
     { id:'50000', value: 50000, discount: 0.15},
 ];
 
-test("should return the initial state", () => {
+test("should return the initial state for Discount Rate", () => {
   expect(
     reducer(undefined, {
       type: "unknown",
