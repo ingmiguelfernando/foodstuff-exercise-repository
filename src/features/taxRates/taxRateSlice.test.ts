@@ -1,4 +1,3 @@
-import { DiscountRate } from "../../types/DiscountRate";
 import reducer from "./taxRateSlice";
 
 const initialState = {
