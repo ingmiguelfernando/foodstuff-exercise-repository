@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = 0;
 
-const taxRateSlice = createSlice({
+const taxSlice = createSlice({
   name: "tax",
   initialState,
   reducers: {
@@ -10,6 +10,6 @@ const taxRateSlice = createSlice({
    },
 });
 
-export const { setTaxRate } = taxRateSlice.actions;
+export const { setTaxRate } = taxSlice.actions;
 
-export default taxRateSlice.reducer;
+export default taxSlice.reducer;
