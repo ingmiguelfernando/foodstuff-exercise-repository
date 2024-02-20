@@ -10,6 +10,9 @@ This repository contains the source code of the implementation of a retail calcu
 
 In the project directory, you can run:
 
+### `npm install`
+Proyect setup
+
 ### `npm start`
 
 Runs the app in the development mode.\
